@@ -3,15 +3,30 @@
 <head>
 	<title>To-do List</title>
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
 </head>
 <body>
 	<div id="list">
 		<p id="header">TO-DO LIST</p>
 		<div>
-			<input type="text" placeholder="Something to do">
+			<input class="text" type="text" placeholder="Something to do">
 		</div>
-		<p>Hii</p>
-		<p>ew</p>
+
+		<div>
+			<input class="checkbox" name ="checkbox" type="checkbox">
+			<label for="checkbox">Hii</label>
+			<i class="fas fa-trash-alt fa-sm"></i>
+			<i class="far fa-edit fa-sm"></i>
+		</div>
+
+		<!--
+		<div>
+			<input class="checkbox" name ="checkbox" type="checkbox">
+			<label for="checkbox">EW</label>
+			<i class="fas fa-trash-alt fa-sm"></i>
+			<i class="far fa-edit fa-sm"></i>
+		</div>
+		-->
 	</div>
 
 	<script src="https://code.jquery.com/jquery-3.3.1.js"   integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="crossorigin="anonymous"></script>
