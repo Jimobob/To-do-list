@@ -4,17 +4,17 @@
 }
 
 body{
-	background-color: #efefef
+	background-color: #d7d7d7;
 }
 
 p{
 	padding: 10px;
-	padding-left: 40px;
+	padding-left: 30px;
 }
 
 label{
 	padding: 10px;
-	padding-left: 20px;
+	padding-left: 15px;
 }
 
 i{
@@ -37,10 +37,11 @@ div:hover > i{
 	border: none;
 	box-sizing: border-box;
 	outline: none;
+	background-color: #efefef;
 }
 
 .checkbox{
-	margin: 10px;
+	margin: 15px;
 }
 
 #header{
@@ -51,12 +52,13 @@ div:hover > i{
 	position: absolute;
 	height: auto;
 	width: 400px;
-	max-height: 600px;
+	max-height: 400px;
 	margin-top: 200px !important;
 	left: 0;
 	right: 0;
 	margin: auto;
-	overflow-y: hidden;
+	overflow-y: auto;
+	line-height: normal;
 	overflow-x: hidden;
 	background-color: white;
 }
